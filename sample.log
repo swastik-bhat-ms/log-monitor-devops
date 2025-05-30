@@ -1,0 +1,1957 @@
+May 29 12:22:26 ubuntu-desk-dev kernel: veth013dd74 (unregistering): left allmulticast mode
+May 29 12:22:26 ubuntu-desk-dev kernel: veth013dd74 (unregistering): left promiscuous mode
+May 29 12:22:26 ubuntu-desk-dev kernel: docker0: port 1(veth013dd74) entered disabled state
+May 29 12:22:26 ubuntu-desk-dev systemd[1]: run-docker-runtime\x2drunc-moby-db1d956628976b9a8a4520005621fd5a884eccec6af2b389f952c474d1bc499b-runc.rYpfqe.mount: Deactivated successfully.
+May 29 12:22:26 ubuntu-desk-dev systemd[1]: var-lib-docker-overlay2-454fecb40692df4e9e86dea6f2dde6253cc4d0d0cd26d2004c2d261c98889153-merged.mount: Deactivated successfully.
+May 29 12:22:27 ubuntu-desk-dev avahi-daemon[800]: Joining mDNS multicast group on interface docker0.IPv6 with address fe80::42:3dff:fe87:218d.
+May 29 12:22:27 ubuntu-desk-dev avahi-daemon[800]: New relevant interface docker0.IPv6 for mDNS.
+May 29 12:22:27 ubuntu-desk-dev avahi-daemon[800]: Registering new address record for fe80::42:3dff:fe87:218d on docker0.*.
+May 29 12:24:21 ubuntu-desk-dev sudo[3660]: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/Desktop/project/log-monitor ; USER=root ; COMMAND=/usr/bin/journalctl -f
+May 29 12:24:21 ubuntu-desk-dev sudo[3660]: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+May 29 12:24:24 ubuntu-desk-dev tracker-miner-fs-3[3665]: (tracker-extract-3:3665): GLib-GIO-WARNING **: 12:24:24.216: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+May 29 12:24:48 ubuntu-desk-dev dbus-daemon[801]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.108' (uid=1000 pid=2811 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+May 29 12:24:48 ubuntu-desk-dev systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+May 29 12:24:48 ubuntu-desk-dev dbus-daemon[801]: [system] Successfully activated service 'org.freedesktop.hostname1'
+May 29 12:24:48 ubuntu-desk-dev systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+May 29 12:24:51 ubuntu-desk-dev tracker-miner-fs-3[3680]: (tracker-extract-3:3680): GLib-GIO-WARNING **: 12:24:51.229: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+May 29 12:24:55 ubuntu-desk-dev gnome-shell[2081]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+May 29 12:25:01 ubuntu-desk-dev CRON[3716]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+May 29 12:25:01 ubuntu-desk-dev CRON[3717]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+May 29 12:25:01 ubuntu-desk-dev CRON[3716]: pam_unix(cron:session): session closed for user root
+May 29 12:25:03 ubuntu-desk-dev tracker-miner-fs-3[3719]: (tracker-extract-3:3719): GLib-GIO-WARNING **: 12:25:03.740: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+May 29 12:25:18 ubuntu-desk-dev systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+May 29 12:25:21 ubuntu-desk-dev tracker-miner-fs-3[3735]: (tracker-extract-3:3735): GLib-GIO-WARNING **: 12:25:21.232: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+May 29 12:25:44 ubuntu-desk-dev gnome-text-edit[3688]: Trying to snapshot GtkGizmo 0x5cc6bd123b20 without a current allocation
+May 29 12:25:46 ubuntu-desk-dev tracker-miner-fs-3[3748]: (tracker-extract-3:3748): GLib-GIO-WARNING **: 12:25:46.729: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+May 29 12:26:14 ubuntu-desk-dev tracker-miner-fs-3[3759]: (tracker-extract-3:3759): GLib-GIO-WARNING **: 12:26:14.326: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+May 29 12:26:14 ubuntu-desk-dev nautilus[2811]: Attempted to add a non-existent file to the view.
+May 29 12:26:14 ubuntu-desk-dev nautilus[2811]: Attempted to add a non-existent file to the view.
+ERROR: Task completed
+WARNING: File not found
+ERROR: User logged in
+ERROR: Database connection failed
+INFO: File not found
+INFO: Database connection failed
+DEBUG: Unexpected value received
+INFO: Unexpected value received
+ERROR: Database connection failed
+DEBUG: User logged in
+INFO: Task completed
+DEBUG: Database connection failed
+DEBUG: Database connection failed
+INFO: Unexpected value received
+INFO: File not found
+WARNING: User logged in
+WARNING: Unexpected value received
+ERROR: User logged in
+WARNING: User logged in
+WARNING: User logged in
+DEBUG: User logged in
+INFO: Task completed
+DEBUG: User logged in
+ERROR: User logged in
+WARNING: User logged in
+WARNING: Task completed
+ERROR: User logged in
+ERROR: File not found
+INFO: Task completed
+DEBUG: User logged in
+INFO: File not found
+DEBUG: User logged in
+DEBUG: Unexpected value received
+INFO: File not found
+WARNING: Task completed
+DEBUG: Task completed
+WARNING: Unexpected value received
+ERROR: Task completed
+WARNING: User logged in
+DEBUG: User logged in
+INFO: Task completed
+WARNING: Unexpected value received
+ERROR: User logged in
+INFO: File not found
+WARNING: File not found
+WARNING: Unexpected value received
+WARNING: User logged in
+WARNING: Task completed
+WARNING: User logged in
+WARNING: Unexpected value received
+WARNING: Task completed
+INFO: Task completed
+WARNING: Task completed
+INFO: Task completed
+ERROR: Database connection failed
+INFO: Unexpected value received
+INFO: Unexpected value received
+DEBUG: Database connection failed
+WARNING: Task completed
+ERROR: User logged in
+DEBUG: User logged in
+DEBUG: User logged in
+WARNING: Task completed
+DEBUG: File not found
+WARNING: File not found
+ERROR: Unexpected value received
+INFO: Task completed
+DEBUG: Database connection failed
+DEBUG: File not found
+INFO: Unexpected value received
+INFO: Database connection failed
+DEBUG: Task completed
+WARNING: Database connection failed
+DEBUG: User logged in
+DEBUG: User logged in
+WARNING: Unexpected value received
+INFO: File not found
+INFO: File not found
+ERROR: File not found
+INFO: Database connection failed
+DEBUG: Unexpected value received
+WARNING: Database connection failed
+DEBUG: Unexpected value received
+INFO: File not found
+ERROR: Database connection failed
+WARNING: User logged in
+DEBUG: File not found
+ERROR: Unexpected value received
+WARNING: Database connection failed
+ERROR: User logged in
+INFO: Task completed
+DEBUG: User logged in
+WARNING: Database connection failed
+INFO: File not found
+WARNING: File not found
+ERROR: Database connection failed
+DEBUG: Task completed
+DEBUG: User logged in
+WARNING: Task completed
+DEBUG: Database connection failed
+WARNING: File not found
+DEBUG: Task completed
+INFO: Task completed
+ERROR: Task completed
+ERROR: Database connection failed
+WARNING: Database connection failed
+WARNING: File not found
+DEBUG: Unexpected value received
+WARNING: User logged in
+DEBUG: File not found
+DEBUG: Unexpected value received
+ERROR: Database connection failed
+DEBUG: File not found
+ERROR: Task completed
+ERROR: Unexpected value received
+WARNING: User logged in
+INFO: User logged in
+ERROR: User logged in
+INFO: File not found
+DEBUG: Task completed
+INFO: Task completed
+INFO: Task completed
+ERROR: Database connection failed
+DEBUG: Task completed
+ERROR: Task completed
+INFO: Unexpected value received
+ERROR: User logged in
+DEBUG: Database connection failed
+WARNING: Database connection failed
+WARNING: File not found
+INFO: Task completed
+ERROR: Unexpected value received
+WARNING: Unexpected value received
+WARNING: User logged in
+ERROR: Task completed
+INFO: Unexpected value received
+DEBUG: Task completed
+WARNING: Database connection failed
+DEBUG: Database connection failed
+WARNING: Task completed
+DEBUG: Database connection failed
+INFO: Unexpected value received
+ERROR: User logged in
+INFO: Task completed
+INFO: Database connection failed
+INFO: User logged in
+ERROR: Database connection failed
+WARNING: Task completed
+DEBUG: File not found
+ERROR: File not found
+DEBUG: User logged in
+DEBUG: User logged in
+WARNING: Unexpected value received
+ERROR: File not found
+WARNING: File not found
+DEBUG: Database connection failed
+INFO: Task completed
+INFO: Database connection failed
+WARNING: File not found
+INFO: Database connection failed
+INFO: Database connection failed
+ERROR: Unexpected value received
+DEBUG: User logged in
+DEBUG: File not found
+ERROR: Task completed
+INFO: Task completed
+INFO: User logged in
+ERROR: User logged in
+ERROR: User logged in
+WARNING: Database connection failed
+WARNING: Unexpected value received
+DEBUG: User logged in
+INFO: Task completed
+WARNING: Task completed
+ERROR: File not found
+ERROR: File not found
+INFO: Task completed
+DEBUG: Database connection failed
+WARNING: Task completed
+INFO: Unexpected value received
+WARNING: Database connection failed
+INFO: Task completed
+DEBUG: Unexpected value received
+WARNING: Task completed
+WARNING: Unexpected value received
+ERROR: Task completed
+INFO: Task completed
+INFO: User logged in
+INFO: Task completed
+ERROR: File not found
+INFO: File not found
+INFO: Unexpected value received
+WARNING: Task completed
+DEBUG: Task completed
+DEBUG: Unexpected value received
+WARNING: Task completed
+WARNING: User logged in
+WARNING: User logged in
+DEBUG: Task completed
+DEBUG: File not found
+INFO: User logged in
+DEBUG: Task completed
+INFO: Unexpected value received
+WARNING: Database connection failed
+ERROR: Database connection failed
+ERROR: Task completed
+INFO: User logged in
+DEBUG: Unexpected value received
+INFO: User logged in
+ERROR: Database connection failed
+WARNING: Unexpected value received
+WARNING: File not found
+WARNING: File not found
+DEBUG: Task completed
+ERROR: Task completed
+DEBUG: Task completed
+INFO: Unexpected value received
+WARNING: User logged in
+INFO: Database connection failed
+WARNING: Unexpected value received
+DEBUG: Task completed
+DEBUG: Database connection failed
+WARNING: Unexpected value received
+INFO: User logged in
+ERROR: Unexpected value received
+ERROR: Task completed
+DEBUG: Database connection failed
+DEBUG: User logged in
+ERROR: User logged in
+DEBUG: Database connection failed
+WARNING: User logged in
+DEBUG: Unexpected value received
+WARNING: Database connection failed
+WARNING: Task completed
+DEBUG: Unexpected value received
+INFO: User logged in
+DEBUG: Task completed
+DEBUG: User logged in
+WARNING: User logged in
+ERROR: File not found
+WARNING: Unexpected value received
+INFO: Database connection failed
+INFO: User logged in
+INFO: File not found
+DEBUG: Task completed
+INFO: Database connection failed
+WARNING: User logged in
+DEBUG: Database connection failed
+ERROR: Database connection failed
+ERROR: Unexpected value received
+ERROR: Task completed
+DEBUG: File not found
+WARNING: Database connection failed
+ERROR: Task completed
+WARNING: File not found
+ERROR: Task completed
+ERROR: Database connection failed
+WARNING: Task completed
+DEBUG: Task completed
+INFO: Database connection failed
+WARNING: Unexpected value received
+INFO: Database connection failed
+DEBUG: File not found
+WARNING: Unexpected value received
+INFO: Database connection failed
+INFO: File not found
+ERROR: File not found
+ERROR: Task completed
+INFO: Database connection failed
+WARNING: Task completed
+DEBUG: Unexpected value received
+ERROR: User logged in
+DEBUG: File not found
+WARNING: File not found
+INFO: Database connection failed
+INFO: User logged in
+ERROR: File not found
+DEBUG: Task completed
+WARNING: Unexpected value received
+DEBUG: File not found
+WARNING: User logged in
+ERROR: File not found
+DEBUG: Database connection failed
+WARNING: Database connection failed
+INFO: Database connection failed
+WARNING: Unexpected value received
+DEBUG: Task completed
+WARNING: Database connection failed
+ERROR: Unexpected value received
+WARNING: File not found
+WARNING: Task completed
+ERROR: File not found
+INFO: User logged in
+ERROR: Task completed
+DEBUG: Database connection failed
+WARNING: Database connection failed
+INFO: File not found
+ERROR: Task completed
+ERROR: Database connection failed
+INFO: Database connection failed
+DEBUG: Task completed
+INFO: Unexpected value received
+DEBUG: File not found
+INFO: Database connection failed
+ERROR: User logged in
+ERROR: Database connection failed
+WARNING: Task completed
+INFO: Unexpected value received
+WARNING: Database connection failed
+DEBUG: Unexpected value received
+WARNING: Database connection failed
+INFO: Task completed
+WARNING: Task completed
+WARNING: Database connection failed
+ERROR: Unexpected value received
+WARNING: Database connection failed
+DEBUG: File not found
+WARNING: File not found
+INFO: Database connection failed
+INFO: User logged in
+WARNING: Task completed
+INFO: User logged in
+WARNING: File not found
+WARNING: File not found
+ERROR: Database connection failed
+WARNING: User logged in
+DEBUG: Database connection failed
+INFO: Database connection failed
+DEBUG: User logged in
+WARNING: File not found
+WARNING: File not found
+DEBUG: File not found
+ERROR: Unexpected value received
+INFO: File not found
+INFO: Database connection failed
+WARNING: Database connection failed
+WARNING: Task completed
+ERROR: Task completed
+DEBUG: Task completed
+INFO: User logged in
+INFO: Database connection failed
+WARNING: User logged in
+DEBUG: User logged in
+ERROR: Database connection failed
+DEBUG: Task completed
+ERROR: Task completed
+DEBUG: Database connection failed
+WARNING: Database connection failed
+DEBUG: Unexpected value received
+DEBUG: Unexpected value received
+WARNING: User logged in
+WARNING: Unexpected value received
+INFO: Database connection failed
+ERROR: File not found
+DEBUG: Unexpected value received
+ERROR: User logged in
+WARNING: Database connection failed
+ERROR: Unexpected value received
+WARNING: Unexpected value received
+INFO: User logged in
+DEBUG: User logged in
+ERROR: Task completed
+DEBUG: Unexpected value received
+INFO: User logged in
+INFO: User logged in
+INFO: File not found
+WARNING: Task completed
+INFO: Unexpected value received
+DEBUG: Task completed
+DEBUG: File not found
+WARNING: Task completed
+ERROR: User logged in
+INFO: Task completed
+ERROR: File not found
+ERROR: File not found
+ERROR: User logged in
+ERROR: Database connection failed
+INFO: Database connection failed
+ERROR: User logged in
+ERROR: Unexpected value received
+INFO: User logged in
+DEBUG: Database connection failed
+DEBUG: Unexpected value received
+WARNING: Database connection failed
+DEBUG: Task completed
+WARNING: User logged in
+ERROR: User logged in
+DEBUG: Unexpected value received
+WARNING: Task completed
+INFO: User logged in
+ERROR: Database connection failed
+DEBUG: File not found
+WARNING: Database connection failed
+WARNING: File not found
+INFO: Task completed
+WARNING: Unexpected value received
+DEBUG: User logged in
+INFO: File not found
+ERROR: Database connection failed
+ERROR: Task completed
+DEBUG: File not found
+WARNING: File not found
+ERROR: File not found
+INFO: Unexpected value received
+ERROR: File not found
+INFO: File not found
+WARNING: User logged in
+WARNING: Task completed
+WARNING: Database connection failed
+DEBUG: Database connection failed
+ERROR: Database connection failed
+WARNING: User logged in
+ERROR: Unexpected value received
+ERROR: User logged in
+WARNING: Unexpected value received
+ERROR: File not found
+INFO: Database connection failed
+ERROR: Task completed
+DEBUG: Database connection failed
+DEBUG: User logged in
+DEBUG: File not found
+INFO: File not found
+WARNING: Task completed
+ERROR: Database connection failed
+WARNING: Database connection failed
+ERROR: File not found
+INFO: Unexpected value received
+WARNING: Task completed
+WARNING: Database connection failed
+WARNING: Unexpected value received
+ERROR: User logged in
+DEBUG: Unexpected value received
+DEBUG: Database connection failed
+DEBUG: File not found
+DEBUG: Database connection failed
+ERROR: Database connection failed
+ERROR: Unexpected value received
+DEBUG: Unexpected value received
+WARNING: User logged in
+DEBUG: Task completed
+ERROR: User logged in
+ERROR: User logged in
+DEBUG: File not found
+ERROR: User logged in
+INFO: Task completed
+WARNING: File not found
+INFO: Task completed
+WARNING: Unexpected value received
+INFO: File not found
+INFO: Task completed
+ERROR: Unexpected value received
+DEBUG: Database connection failed
+WARNING: Unexpected value received
+ERROR: Task completed
+ERROR: User logged in
+DEBUG: File not found
+DEBUG: Unexpected value received
+ERROR: Database connection failed
+DEBUG: Unexpected value received
+ERROR: Database connection failed
+ERROR: User logged in
+INFO: Task completed
+ERROR: File not found
+WARNING: Database connection failed
+ERROR: User logged in
+INFO: Task completed
+INFO: Database connection failed
+DEBUG: Database connection failed
+WARNING: Unexpected value received
+DEBUG: Database connection failed
+INFO: Unexpected value received
+WARNING: File not found
+ERROR: Task completed
+INFO: User logged in
+DEBUG: Task completed
+INFO: Database connection failed
+ERROR: User logged in
+INFO: Unexpected value received
+ERROR: Task completed
+DEBUG: File not found
+INFO: Unexpected value received
+WARNING: Task completed
+ERROR: User logged in
+WARNING: Task completed
+ERROR: User logged in
+WARNING: File not found
+ERROR: Database connection failed
+WARNING: User logged in
+INFO: Unexpected value received
+INFO: Unexpected value received
+ERROR: Task completed
+WARNING: User logged in
+ERROR: User logged in
+ERROR: User logged in
+ERROR: Database connection failed
+INFO: Unexpected value received
+ERROR: Unexpected value received
+DEBUG: User logged in
+INFO: User logged in
+WARNING: File not found
+WARNING: Task completed
+ERROR: Unexpected value received
+WARNING: File not found
+ERROR: File not found
+WARNING: File not found
+ERROR: Database connection failed
+WARNING: Unexpected value received
+DEBUG: User logged in
+INFO: Unexpected value received
+INFO: Database connection failed
+INFO: Task completed
+ERROR: File not found
+WARNING: File not found
+DEBUG: Task completed
+DEBUG: User logged in
+INFO: Unexpected value received
+DEBUG: Database connection failed
+INFO: Database connection failed
+WARNING: Database connection failed
+INFO: User logged in
+INFO: User logged in
+INFO: File not found
+DEBUG: Database connection failed
+INFO: Database connection failed
+WARNING: Unexpected value received
+INFO: Task completed
+ERROR: Unexpected value received
+DEBUG: Unexpected value received
+INFO: File not found
+DEBUG: Unexpected value received
+WARNING: Task completed
+DEBUG: Unexpected value received
+INFO: Task completed
+DEBUG: Task completed
+DEBUG: Task completed
+WARNING: File not found
+WARNING: Unexpected value received
+DEBUG: Unexpected value received
+DEBUG: Database connection failed
+WARNING: Unexpected value received
+INFO: Task completed
+INFO: Unexpected value received
+INFO: Database connection failed
+DEBUG: Unexpected value received
+WARNING: User logged in
+WARNING: Task completed
+DEBUG: Database connection failed
+ERROR: File not found
+WARNING: Unexpected value received
+INFO: User logged in
+ERROR: Unexpected value received
+WARNING: Task completed
+INFO: Task completed
+DEBUG: Unexpected value received
+WARNING: User logged in
+ERROR: Task completed
+WARNING: Unexpected value received
+WARNING: File not found
+WARNING: Task completed
+DEBUG: Unexpected value received
+INFO: Database connection failed
+WARNING: Unexpected value received
+WARNING: Database connection failed
+DEBUG: File not found
+INFO: Task completed
+INFO: File not found
+ERROR: User logged in
+DEBUG: Unexpected value received
+INFO: File not found
+DEBUG: Unexpected value received
+ERROR: Task completed
+DEBUG: Database connection failed
+ERROR: User logged in
+WARNING: User logged in
+WARNING: Unexpected value received
+WARNING: Database connection failed
+DEBUG: Task completed
+WARNING: File not found
+ERROR: Unexpected value received
+ERROR: Database connection failed
+WARNING: Database connection failed
+ERROR: User logged in
+WARNING: Unexpected value received
+INFO: Unexpected value received
+INFO: Database connection failed
+DEBUG: File not found
+DEBUG: Database connection failed
+WARNING: Database connection failed
+ERROR: Unexpected value received
+ERROR: Database connection failed
+WARNING: Database connection failed
+ERROR: Unexpected value received
+ERROR: Task completed
+WARNING: Database connection failed
+DEBUG: User logged in
+WARNING: File not found
+ERROR: Task completed
+WARNING: User logged in
+ERROR: Database connection failed
+INFO: Unexpected value received
+ERROR: Unexpected value received
+INFO: User logged in
+WARNING: File not found
+INFO: File not found
+WARNING: Database connection failed
+ERROR: File not found
+INFO: Task completed
+ERROR: User logged in
+WARNING: User logged in
+WARNING: Task completed
+ERROR: User logged in
+WARNING: Unexpected value received
+INFO: File not found
+ERROR: Unexpected value received
+DEBUG: Task completed
+ERROR: File not found
+ERROR: User logged in
+INFO: Task completed
+WARNING: Task completed
+ERROR: File not found
+INFO: Database connection failed
+DEBUG: Database connection failed
+DEBUG: File not found
+WARNING: Database connection failed
+INFO: File not found
+ERROR: Database connection failed
+DEBUG: Database connection failed
+INFO: Task completed
+DEBUG: Database connection failed
+WARNING: User logged in
+DEBUG: File not found
+INFO: Unexpected value received
+WARNING: User logged in
+ERROR: Task completed
+WARNING: File not found
+DEBUG: User logged in
+WARNING: Task completed
+DEBUG: User logged in
+ERROR: Unexpected value received
+ERROR: Database connection failed
+WARNING: Unexpected value received
+INFO: Database connection failed
+WARNING: Task completed
+DEBUG: Unexpected value received
+DEBUG: Database connection failed
+INFO: File not found
+INFO: Database connection failed
+ERROR: Unexpected value received
+INFO: Unexpected value received
+DEBUG: Unexpected value received
+WARNING: Unexpected value received
+INFO: Task completed
+WARNING: Unexpected value received
+ERROR: File not found
+WARNING: Unexpected value received
+ERROR: Task completed
+DEBUG: Task completed
+ERROR: File not found
+ERROR: File not found
+ERROR: Database connection failed
+WARNING: Database connection failed
+ERROR: Unexpected value received
+DEBUG: Unexpected value received
+DEBUG: User logged in
+ERROR: Unexpected value received
+ERROR: User logged in
+ERROR: File not found
+ERROR: File not found
+DEBUG: Task completed
+WARNING: Task completed
+WARNING: Database connection failed
+INFO: Database connection failed
+INFO: Database connection failed
+DEBUG: File not found
+DEBUG: User logged in
+DEBUG: File not found
+WARNING: File not found
+ERROR: File not found
+DEBUG: Database connection failed
+INFO: File not found
+INFO: Unexpected value received
+DEBUG: Database connection failed
+WARNING: Unexpected value received
+WARNING: File not found
+WARNING: File not found
+INFO: Unexpected value received
+ERROR: Task completed
+ERROR: File not found
+ERROR: File not found
+ERROR: Unexpected value received
+DEBUG: Unexpected value received
+ERROR: Database connection failed
+WARNING: Task completed
+ERROR: Database connection failed
+DEBUG: File not found
+WARNING: File not found
+WARNING: User logged in
+ERROR: Database connection failed
+INFO: Unexpected value received
+ERROR: Database connection failed
+INFO: Unexpected value received
+INFO: Task completed
+ERROR: File not found
+ERROR: File not found
+DEBUG: Database connection failed
+ERROR: Task completed
+ERROR: Database connection failed
+DEBUG: Unexpected value received
+WARNING: Unexpected value received
+INFO: Unexpected value received
+ERROR: Database connection failed
+INFO: Task completed
+ERROR: Task completed
+DEBUG: Database connection failed
+ERROR: Unexpected value received
+INFO: File not found
+INFO: Database connection failed
+INFO: Database connection failed
+DEBUG: Task completed
+ERROR: Database connection failed
+ERROR: Database connection failed
+WARNING: Unexpected value received
+INFO: Database connection failed
+DEBUG: Unexpected value received
+DEBUG: Database connection failed
+DEBUG: File not found
+ERROR: Unexpected value received
+WARNING: Task completed
+INFO: User logged in
+INFO: User logged in
+ERROR: Unexpected value received
+WARNING: User logged in
+WARNING: Task completed
+ERROR: User logged in
+DEBUG: Database connection failed
+ERROR: File not found
+WARNING: Task completed
+INFO: Database connection failed
+DEBUG: Database connection failed
+DEBUG: Unexpected value received
+DEBUG: File not found
+WARNING: User logged in
+DEBUG: File not found
+DEBUG: Unexpected value received
+WARNING: Task completed
+ERROR: Task completed
+INFO: User logged in
+WARNING: User logged in
+INFO: File not found
+DEBUG: Unexpected value received
+DEBUG: File not found
+ERROR: File not found
+DEBUG: File not found
+ERROR: User logged in
+DEBUG: Unexpected value received
+ERROR: File not found
+WARNING: User logged in
+ERROR: Database connection failed
+INFO: User logged in
+INFO: Database connection failed
+WARNING: Database connection failed
+ERROR: Unexpected value received
+DEBUG: User logged in
+WARNING: Unexpected value received
+INFO: Database connection failed
+WARNING: File not found
+INFO: File not found
+INFO: Database connection failed
+INFO: Task completed
+ERROR: User logged in
+WARNING: Task completed
+INFO: Unexpected value received
+ERROR: User logged in
+ERROR: Database connection failed
+ERROR: Unexpected value received
+ERROR: Unexpected value received
+INFO: Unexpected value received
+ERROR: Database connection failed
+ERROR: Task completed
+DEBUG: Database connection failed
+ERROR: User logged in
+INFO: Database connection failed
+ERROR: User logged in
+INFO: Unexpected value received
+INFO: Database connection failed
+WARNING: User logged in
+INFO: User logged in
+ERROR: File not found
+ERROR: User logged in
+DEBUG: Unexpected value received
+DEBUG: Task completed
+WARNING: User logged in
+ERROR: Database connection failed
+INFO: Database connection failed
+INFO: File not found
+DEBUG: Task completed
+WARNING: Unexpected value received
+ERROR: Database connection failed
+INFO: Unexpected value received
+WARNING: Task completed
+WARNING: User logged in
+WARNING: User logged in
+INFO: User logged in
+DEBUG: Unexpected value received
+INFO: Unexpected value received
+WARNING: Unexpected value received
+INFO: Database connection failed
+DEBUG: User logged in
+INFO: Task completed
+DEBUG: User logged in
+WARNING: User logged in
+WARNING: File not found
+WARNING: Database connection failed
+WARNING: Database connection failed
+ERROR: Database connection failed
+WARNING: User logged in
+ERROR: Task completed
+INFO: User logged in
+INFO: Database connection failed
+WARNING: Unexpected value received
+DEBUG: File not found
+DEBUG: File not found
+ERROR: File not found
+ERROR: Unexpected value received
+WARNING: File not found
+DEBUG: Database connection failed
+DEBUG: User logged in
+ERROR: User logged in
+ERROR: User logged in
+WARNING: Task completed
+ERROR: File not found
+INFO: Task completed
+INFO: Database connection failed
+ERROR: Task completed
+DEBUG: Unexpected value received
+ERROR: File not found
+ERROR: Unexpected value received
+DEBUG: File not found
+DEBUG: User logged in
+WARNING: File not found
+WARNING: User logged in
+WARNING: File not found
+INFO: File not found
+INFO: User logged in
+DEBUG: Database connection failed
+WARNING: Database connection failed
+ERROR: Unexpected value received
+WARNING: File not found
+WARNING: Task completed
+DEBUG: Unexpected value received
+DEBUG: Database connection failed
+WARNING: File not found
+ERROR: Unexpected value received
+WARNING: Task completed
+DEBUG: File not found
+INFO: Database connection failed
+ERROR: Database connection failed
+INFO: File not found
+INFO: Database connection failed
+ERROR: Task completed
+WARNING: Database connection failed
+DEBUG: User logged in
+DEBUG: User logged in
+ERROR: Task completed
+WARNING: Unexpected value received
+INFO: Unexpected value received
+DEBUG: User logged in
+ERROR: Task completed
+INFO: Unexpected value received
+INFO: User logged in
+WARNING: Task completed
+DEBUG: Database connection failed
+ERROR: Unexpected value received
+INFO: Unexpected value received
+WARNING: Task completed
+WARNING: Task completed
+ERROR: Task completed
+WARNING: Task completed
+ERROR: Task completed
+WARNING: File not found
+WARNING: Task completed
+ERROR: Task completed
+DEBUG: Database connection failed
+ERROR: Task completed
+INFO: Unexpected value received
+DEBUG: Unexpected value received
+WARNING: Unexpected value received
+ERROR: File not found
+WARNING: File not found
+INFO: File not found
+ERROR: File not found
+WARNING: User logged in
+ERROR: File not found
+WARNING: Task completed
+ERROR: File not found
+DEBUG: Task completed
+DEBUG: User logged in
+INFO: Task completed
+DEBUG: Unexpected value received
+INFO: Task completed
+ERROR: User logged in
+ERROR: File not found
+ERROR: Database connection failed
+INFO: Task completed
+ERROR: Unexpected value received
+INFO: File not found
+INFO: Unexpected value received
+INFO: Task completed
+WARNING: Unexpected value received
+DEBUG: User logged in
+WARNING: Database connection failed
+WARNING: Database connection failed
+ERROR: User logged in
+DEBUG: Database connection failed
+INFO: Unexpected value received
+WARNING: User logged in
+WARNING: File not found
+ERROR: Task completed
+DEBUG: File not found
+WARNING: File not found
+DEBUG: Task completed
+WARNING: Task completed
+WARNING: Unexpected value received
+WARNING: Unexpected value received
+INFO: User logged in
+DEBUG: User logged in
+INFO: User logged in
+ERROR: User logged in
+ERROR: File not found
+WARNING: Database connection failed
+DEBUG: Unexpected value received
+ERROR: File not found
+DEBUG: User logged in
+DEBUG: File not found
+WARNING: Unexpected value received
+WARNING: File not found
+ERROR: Database connection failed
+ERROR: User logged in
+ERROR: User logged in
+ERROR: User logged in
+DEBUG: Task completed
+DEBUG: Unexpected value received
+INFO: Unexpected value received
+INFO: File not found
+INFO: Task completed
+INFO: File not found
+INFO: Unexpected value received
+ERROR: User logged in
+INFO: Database connection failed
+WARNING: Database connection failed
+ERROR: File not found
+DEBUG: Unexpected value received
+DEBUG: User logged in
+DEBUG: Database connection failed
+INFO: Database connection failed
+DEBUG: File not found
+DEBUG: File not found
+WARNING: Task completed
+ERROR: Task completed
+DEBUG: User logged in
+WARNING: Unexpected value received
+DEBUG: Unexpected value received
+ERROR: File not found
+ERROR: Database connection failed
+ERROR: User logged in
+INFO: Task completed
+ERROR: File not found
+ERROR: Database connection failed
+WARNING: Task completed
+INFO: Task completed
+ERROR: Task completed
+WARNING: Database connection failed
+INFO: Unexpected value received
+INFO: Database connection failed
+ERROR: Task completed
+DEBUG: Database connection failed
+WARNING: Task completed
+INFO: File not found
+WARNING: File not found
+ERROR: File not found
+ERROR: Database connection failed
+INFO: File not found
+ERROR: User logged in
+INFO: Task completed
+ERROR: User logged in
+INFO: Database connection failed
+WARNING: Unexpected value received
+INFO: Database connection failed
+WARNING: Database connection failed
+ERROR: Unexpected value received
+ERROR: Database connection failed
+INFO: Unexpected value received
+DEBUG: Task completed
+INFO: Database connection failed
+ERROR: Unexpected value received
+DEBUG: File not found
+WARNING: Unexpected value received
+WARNING: Database connection failed
+INFO: Task completed
+INFO: Database connection failed
+ERROR: Unexpected value received
+ERROR: Database connection failed
+DEBUG: User logged in
+ERROR: Task completed
+ERROR: Unexpected value received
+DEBUG: Task completed
+DEBUG: Database connection failed
+INFO: Database connection failed
+INFO: User logged in
+DEBUG: File not found
+ERROR: Task completed
+INFO: Task completed
+INFO: User logged in
+WARNING: Database connection failed
+ERROR: User logged in
+WARNING: Database connection failed
+DEBUG: Task completed
+ERROR: Unexpected value received
+DEBUG: User logged in
+INFO: Database connection failed
+ERROR: Task completed
+INFO: User logged in
+INFO: User logged in
+DEBUG: Task completed
+WARNING: Database connection failed
+DEBUG: File not found
+INFO: Unexpected value received
+ERROR: User logged in
+DEBUG: User logged in
+DEBUG: User logged in
+ERROR: File not found
+WARNING: User logged in
+ERROR: Task completed
+INFO: Database connection failed
+INFO: Unexpected value received
+ERROR: Database connection failed
+DEBUG: File not found
+DEBUG: File not found
+WARNING: Unexpected value received
+DEBUG: Database connection failed
+INFO: File not found
+WARNING: File not found
+WARNING: Task completed
+WARNING: Database connection failed
+WARNING: User logged in
+WARNING: User logged in
+DEBUG: User logged in
+WARNING: User logged in
+ERROR: User logged in
+ERROR: Database connection failed
+DEBUG: File not found
+WARNING: Unexpected value received
+WARNING: User logged in
+DEBUG: File not found
+INFO: Task completed
+DEBUG: Task completed
+ERROR: Task completed
+WARNING: Task completed
+ERROR: Unexpected value received
+ERROR: Task completed
+WARNING: Database connection failed
+INFO: User logged in
+INFO: Task completed
+WARNING: Database connection failed
+INFO: Database connection failed
+WARNING: File not found
+DEBUG: User logged in
+INFO: User logged in
+ERROR: Task completed
+DEBUG: Unexpected value received
+INFO: Task completed
+WARNING: Task completed
+DEBUG: Unexpected value received
+ERROR: User logged in
+ERROR: File not found
+WARNING: File not found
+ERROR: Unexpected value received
+DEBUG: Database connection failed
+ERROR: User logged in
+INFO: User logged in
+WARNING: Database connection failed
+DEBUG: Task completed
+WARNING: Database connection failed
+DEBUG: Task completed
+INFO: Task completed
+WARNING: Task completed
+DEBUG: Unexpected value received
+ERROR: Task completed
+INFO: Database connection failed
+WARNING: File not found
+ERROR: User logged in
+ERROR: Unexpected value received
+WARNING: Unexpected value received
+WARNING: Task completed
+WARNING: Database connection failed
+DEBUG: User logged in
+INFO: File not found
+INFO: File not found
+INFO: Database connection failed
+DEBUG: Database connection failed
+INFO: User logged in
+INFO: File not found
+WARNING: Task completed
+WARNING: Task completed
+WARNING: Unexpected value received
+DEBUG: User logged in
+INFO: File not found
+DEBUG: Task completed
+WARNING: User logged in
+ERROR: User logged in
+DEBUG: User logged in
+ERROR: Task completed
+WARNING: Database connection failed
+INFO: User logged in
+INFO: File not found
+INFO: Database connection failed
+ERROR: Task completed
+WARNING: User logged in
+INFO: User logged in
+DEBUG: Database connection failed
+ERROR: Unexpected value received
+WARNING: File not found
+DEBUG: User logged in
+INFO: File not found
+ERROR: Unexpected value received
+DEBUG: Unexpected value received
+INFO: Unexpected value received
+DEBUG: Unexpected value received
+ERROR: User logged in
+DEBUG: Task completed
+WARNING: Database connection failed
+INFO: Database connection failed
+DEBUG: Database connection failed
+INFO: User logged in
+INFO: Task completed
+ERROR: User logged in
+DEBUG: File not found
+WARNING: User logged in
+ERROR: Database connection failed
+DEBUG: User logged in
+DEBUG: Task completed
+WARNING: Task completed
+WARNING: Database connection failed
+DEBUG: Database connection failed
+ERROR: Task completed
+ERROR: File not found
+DEBUG: User logged in
+DEBUG: User logged in
+ERROR: Database connection failed
+DEBUG: Database connection failed
+INFO: User logged in
+DEBUG: User logged in
+INFO: File not found
+WARNING: Database connection failed
+INFO: Task completed
+ERROR: User logged in
+DEBUG: User logged in
+WARNING: Database connection failed
+DEBUG: User logged in
+WARNING: Unexpected value received
+WARNING: Unexpected value received
+ERROR: Database connection failed
+INFO: File not found
+WARNING: Task completed
+ERROR: Database connection failed
+WARNING: Unexpected value received
+ERROR: File not found
+WARNING: Unexpected value received
+INFO: User logged in
+WARNING: Database connection failed
+WARNING: User logged in
+INFO: Task completed
+WARNING: Database connection failed
+ERROR: Task completed
+INFO: Task completed
+INFO: Unexpected value received
+WARNING: File not found
+ERROR: Database connection failed
+DEBUG: User logged in
+INFO: Task completed
+ERROR: Unexpected value received
+INFO: Database connection failed
+INFO: User logged in
+INFO: Task completed
+DEBUG: Unexpected value received
+ERROR: User logged in
+INFO: Database connection failed
+WARNING: User logged in
+WARNING: File not found
+ERROR: File not found
+WARNING: Unexpected value received
+INFO: File not found
+ERROR: User logged in
+ERROR: Database connection failed
+ERROR: User logged in
+WARNING: Unexpected value received
+INFO: Database connection failed
+ERROR: Unexpected value received
+DEBUG: File not found
+DEBUG: Unexpected value received
+DEBUG: Database connection failed
+WARNING: User logged in
+DEBUG: Unexpected value received
+WARNING: File not found
+DEBUG: Database connection failed
+WARNING: Database connection failed
+INFO: Task completed
+ERROR: File not found
+DEBUG: Unexpected value received
+ERROR: Unexpected value received
+DEBUG: Database connection failed
+ERROR: Task completed
+DEBUG: User logged in
+WARNING: File not found
+ERROR: File not found
+DEBUG: User logged in
+ERROR: User logged in
+INFO: Database connection failed
+ERROR: User logged in
+INFO: Unexpected value received
+WARNING: Task completed
+INFO: Database connection failed
+INFO: Database connection failed
+DEBUG: File not found
+ERROR: Task completed
+WARNING: User logged in
+INFO: Unexpected value received
+INFO: Unexpected value received
+DEBUG: Task completed
+DEBUG: Task completed
+ERROR: Database connection failed
+WARNING: User logged in
+DEBUG: File not found
+ERROR: User logged in
+ERROR: Task completed
+INFO: Database connection failed
+WARNING: Task completed
+ERROR: File not found
+WARNING: File not found
+DEBUG: Task completed
+DEBUG: Database connection failed
+INFO: Task completed
+ERROR: File not found
+INFO: Database connection failed
+DEBUG: User logged in
+ERROR: File not found
+ERROR: Unexpected value received
+ERROR: Unexpected value received
+WARNING: File not found
+INFO: User logged in
+DEBUG: Task completed
+DEBUG: File not found
+ERROR: File not found
+DEBUG: User logged in
+WARNING: File not found
+WARNING: File not found
+INFO: File not found
+DEBUG: Task completed
+DEBUG: Database connection failed
+INFO: User logged in
+WARNING: Database connection failed
+INFO: User logged in
+ERROR: User logged in
+INFO: User logged in
+ERROR: Database connection failed
+WARNING: Unexpected value received
+DEBUG: Task completed
+WARNING: Task completed
+WARNING: File not found
+DEBUG: Unexpected value received
+INFO: Task completed
+DEBUG: User logged in
+INFO: Database connection failed
+DEBUG: File not found
+WARNING: Unexpected value received
+INFO: User logged in
+DEBUG: Task completed
+INFO: User logged in
+ERROR: User logged in
+ERROR: Database connection failed
+INFO: Database connection failed
+ERROR: File not found
+INFO: File not found
+WARNING: File not found
+DEBUG: User logged in
+ERROR: Database connection failed
+INFO: User logged in
+WARNING: Database connection failed
+ERROR: Database connection failed
+ERROR: File not found
+DEBUG: Unexpected value received
+WARNING: Database connection failed
+INFO: Unexpected value received
+ERROR: User logged in
+INFO: File not found
+DEBUG: Database connection failed
+DEBUG: Database connection failed
+INFO: Database connection failed
+DEBUG: File not found
+DEBUG: Task completed
+WARNING: User logged in
+ERROR: Unexpected value received
+WARNING: Database connection failed
+DEBUG: Task completed
+ERROR: Task completed
+WARNING: User logged in
+ERROR: User logged in
+ERROR: Unexpected value received
+DEBUG: Database connection failed
+ERROR: Database connection failed
+INFO: Unexpected value received
+ERROR: Database connection failed
+INFO: Database connection failed
+DEBUG: Database connection failed
+INFO: Unexpected value received
+INFO: File not found
+ERROR: Database connection failed
+DEBUG: User logged in
+WARNING: File not found
+INFO: Unexpected value received
+WARNING: User logged in
+WARNING: File not found
+DEBUG: Database connection failed
+DEBUG: File not found
+INFO: Task completed
+ERROR: Unexpected value received
+ERROR: Unexpected value received
+ERROR: Database connection failed
+INFO: Unexpected value received
+ERROR: User logged in
+WARNING: Task completed
+ERROR: Database connection failed
+WARNING: Database connection failed
+DEBUG: File not found
+INFO: Database connection failed
+WARNING: File not found
+WARNING: User logged in
+WARNING: Database connection failed
+WARNING: Task completed
+ERROR: Unexpected value received
+DEBUG: User logged in
+ERROR: Unexpected value received
+INFO: User logged in
+ERROR: Database connection failed
+INFO: Task completed
+INFO: Unexpected value received
+ERROR: Task completed
+ERROR: User logged in
+WARNING: Unexpected value received
+DEBUG: Task completed
+DEBUG: Task completed
+INFO: Database connection failed
+DEBUG: User logged in
+ERROR: User logged in
+DEBUG: Database connection failed
+WARNING: User logged in
+DEBUG: User logged in
+ERROR: Database connection failed
+DEBUG: Database connection failed
+DEBUG: File not found
+INFO: User logged in
+DEBUG: File not found
+DEBUG: Unexpected value received
+DEBUG: File not found
+WARNING: Task completed
+DEBUG: File not found
+INFO: File not found
+WARNING: File not found
+ERROR: Unexpected value received
+DEBUG: Database connection failed
+DEBUG: Unexpected value received
+DEBUG: User logged in
+INFO: File not found
+ERROR: Task completed
+ERROR: Unexpected value received
+INFO: Task completed
+WARNING: User logged in
+INFO: File not found
+INFO: Database connection failed
+INFO: Database connection failed
+INFO: User logged in
+DEBUG: Database connection failed
+DEBUG: Database connection failed
+ERROR: Task completed
+WARNING: File not found
+WARNING: Database connection failed
+DEBUG: Database connection failed
+ERROR: Database connection failed
+DEBUG: Unexpected value received
+DEBUG: Database connection failed
+ERROR: Unexpected value received
+ERROR: File not found
+ERROR: Database connection failed
+WARNING: Task completed
+WARNING: Unexpected value received
+WARNING: Task completed
+WARNING: File not found
+DEBUG: Database connection failed
+WARNING: Database connection failed
+WARNING: File not found
+ERROR: Task completed
+INFO: Unexpected value received
+WARNING: Database connection failed
+WARNING: Unexpected value received
+ERROR: User logged in
+ERROR: File not found
+DEBUG: Database connection failed
+DEBUG: Task completed
+INFO: Task completed
+INFO: File not found
+WARNING: User logged in
+ERROR: Unexpected value received
+WARNING: User logged in
+INFO: User logged in
+WARNING: Unexpected value received
+ERROR: File not found
+INFO: File not found
+DEBUG: File not found
+ERROR: Unexpected value received
+DEBUG: File not found
+DEBUG: File not found
+DEBUG: Database connection failed
+ERROR: File not found
+INFO: Database connection failed
+ERROR: User logged in
+WARNING: User logged in
+ERROR: Unexpected value received
+ERROR: File not found
+DEBUG: Task completed
+ERROR: File not found
+ERROR: Task completed
+DEBUG: Database connection failed
+INFO: Unexpected value received
+WARNING: Database connection failed
+ERROR: File not found
+WARNING: User logged in
+INFO: Unexpected value received
+WARNING: Database connection failed
+WARNING: File not found
+ERROR: Unexpected value received
+ERROR: Task completed
+INFO: Task completed
+DEBUG: File not found
+DEBUG: User logged in
+DEBUG: Task completed
+ERROR: User logged in
+INFO: Database connection failed
+WARNING: User logged in
+DEBUG: Task completed
+WARNING: Task completed
+WARNING: Unexpected value received
+DEBUG: Task completed
+INFO: User logged in
+ERROR: Database connection failed
+DEBUG: Database connection failed
+ERROR: Task completed
+INFO: Database connection failed
+DEBUG: Unexpected value received
+ERROR: Unexpected value received
+INFO: User logged in
+WARNING: Unexpected value received
+WARNING: User logged in
+ERROR: Unexpected value received
+INFO: Task completed
+DEBUG: Unexpected value received
+ERROR: Database connection failed
+ERROR: Unexpected value received
+ERROR: Task completed
+DEBUG: File not found
+WARNING: User logged in
+DEBUG: Database connection failed
+ERROR: Unexpected value received
+DEBUG: File not found
+ERROR: Task completed
+WARNING: Database connection failed
+ERROR: User logged in
+ERROR: File not found
+WARNING: Unexpected value received
+INFO: File not found
+DEBUG: Task completed
+DEBUG: Task completed
+WARNING: Unexpected value received
+ERROR: Database connection failed
+DEBUG: File not found
+INFO: File not found
+WARNING: Unexpected value received
+INFO: Unexpected value received
+DEBUG: Database connection failed
+ERROR: Unexpected value received
+ERROR: Task completed
+ERROR: Database connection failed
+ERROR: File not found
+DEBUG: File not found
+INFO: Task completed
+INFO: Task completed
+ERROR: Database connection failed
+ERROR: File not found
+WARNING: Task completed
+DEBUG: User logged in
+ERROR: File not found
+DEBUG: Unexpected value received
+DEBUG: File not found
+ERROR: Database connection failed
+INFO: Database connection failed
+ERROR: Task completed
+ERROR: Task completed
+INFO: File not found
+INFO: Unexpected value received
+WARNING: User logged in
+DEBUG: File not found
+WARNING: User logged in
+INFO: User logged in
+WARNING: File not found
+WARNING: Database connection failed
+WARNING: Unexpected value received
+INFO: Task completed
+INFO: Task completed
+ERROR: File not found
+WARNING: User logged in
+DEBUG: Unexpected value received
+WARNING: User logged in
+ERROR: Database connection failed
+WARNING: Database connection failed
+DEBUG: File not found
+ERROR: File not found
+DEBUG: File not found
+DEBUG: Task completed
+WARNING: File not found
+DEBUG: Unexpected value received
+INFO: Database connection failed
+INFO: Database connection failed
+WARNING: Database connection failed
+DEBUG: Unexpected value received
+WARNING: Database connection failed
+WARNING: Database connection failed
+WARNING: User logged in
+DEBUG: User logged in
+ERROR: Unexpected value received
+WARNING: Unexpected value received
+ERROR: Database connection failed
+INFO: User logged in
+ERROR: Database connection failed
+DEBUG: Database connection failed
+INFO: User logged in
+WARNING: Unexpected value received
+ERROR: User logged in
+DEBUG: Unexpected value received
+ERROR: User logged in
+ERROR: Task completed
+WARNING: Database connection failed
+WARNING: Unexpected value received
+DEBUG: Database connection failed
+DEBUG: Task completed
+DEBUG: File not found
+ERROR: Task completed
+INFO: User logged in
+WARNING: Database connection failed
+INFO: Database connection failed
+DEBUG: User logged in
+WARNING: File not found
+WARNING: User logged in
+ERROR: File not found
+DEBUG: User logged in
+DEBUG: Unexpected value received
+ERROR: Database connection failed
+DEBUG: User logged in
+WARNING: User logged in
+ERROR: User logged in
+WARNING: User logged in
+WARNING: Database connection failed
+ERROR: User logged in
+WARNING: Unexpected value received
+WARNING: File not found
+INFO: File not found
+INFO: File not found
+ERROR: Task completed
+DEBUG: User logged in
+ERROR: File not found
+DEBUG: Task completed
+ERROR: Task completed
+ERROR: Database connection failed
+ERROR: File not found
+WARNING: File not found
+INFO: Database connection failed
+WARNING: Task completed
+ERROR: User logged in
+INFO: Database connection failed
+WARNING: Database connection failed
+ERROR: Task completed
+WARNING: Task completed
+DEBUG: User logged in
+DEBUG: Database connection failed
+ERROR: User logged in
+WARNING: Database connection failed
+ERROR: Task completed
+INFO: Database connection failed
+ERROR: Database connection failed
+WARNING: Unexpected value received
+WARNING: Database connection failed
+WARNING: Unexpected value received
+INFO: User logged in
+INFO: Database connection failed
+ERROR: File not found
+ERROR: Database connection failed
+INFO: User logged in
+INFO: Task completed
+WARNING: Database connection failed
+ERROR: Task completed
+WARNING: Task completed
+WARNING: Database connection failed
+WARNING: User logged in
+WARNING: User logged in
+DEBUG: File not found
+INFO: Database connection failed
+ERROR: Unexpected value received
+INFO: Database connection failed
+ERROR: File not found
+ERROR: Unexpected value received
+DEBUG: File not found
+INFO: File not found
+ERROR: File not found
+DEBUG: User logged in
+DEBUG: Task completed
+WARNING: Task completed
+ERROR: Database connection failed
+WARNING: User logged in
+INFO: Unexpected value received
+DEBUG: Unexpected value received
+WARNING: User logged in
+ERROR: User logged in
+WARNING: Task completed
+WARNING: Database connection failed
+INFO: Database connection failed
+INFO: Database connection failed
+WARNING: Unexpected value received
+DEBUG: Database connection failed
+DEBUG: File not found
+ERROR: Task completed
+DEBUG: Unexpected value received
+ERROR: Database connection failed
+ERROR: Unexpected value received
+ERROR: Unexpected value received
+INFO: Database connection failed
+DEBUG: User logged in
+DEBUG: Task completed
+DEBUG: Unexpected value received
+INFO: Database connection failed
+INFO: Task completed
+ERROR: User logged in
+INFO: Database connection failed
+WARNING: Database connection failed
+INFO: File not found
+INFO: User logged in
+INFO: Unexpected value received
+ERROR: File not found
+INFO: User logged in
+INFO: Database connection failed
+DEBUG: User logged in
+WARNING: Unexpected value received
+INFO: Unexpected value received
+ERROR: Task completed
+DEBUG: File not found
+DEBUG: Database connection failed
+INFO: Database connection failed
+DEBUG: Database connection failed
+WARNING: Unexpected value received
+WARNING: Task completed
+WARNING: File not found
+WARNING: Database connection failed
+INFO: Task completed
+ERROR: Unexpected value received
+INFO: Unexpected value received
+INFO: User logged in
+DEBUG: File not found
+INFO: Unexpected value received
+ERROR: User logged in
+WARNING: Unexpected value received
+DEBUG: User logged in
+WARNING: Task completed
+DEBUG: User logged in
+ERROR: Unexpected value received
+WARNING: File not found
+DEBUG: Database connection failed
+INFO: Database connection failed
+ERROR: User logged in
+WARNING: Database connection failed
+ERROR: User logged in
+DEBUG: Task completed
+WARNING: User logged in
+INFO: Unexpected value received
+ERROR: User logged in
+WARNING: User logged in
+ERROR: Database connection failed
+INFO: User logged in
+INFO: Task completed
+DEBUG: User logged in
+INFO: User logged in
+DEBUG: File not found
+INFO: Task completed
+WARNING: Unexpected value received
+ERROR: User logged in
+INFO: File not found
+WARNING: File not found
+WARNING: Database connection failed
+ERROR: Task completed
+DEBUG: User logged in
+DEBUG: User logged in
+INFO: Unexpected value received
+INFO: Task completed
+ERROR: User logged in
+DEBUG: File not found
+WARNING: Database connection failed
+DEBUG: File not found
+DEBUG: Task completed
+ERROR: Unexpected value received
+ERROR: Unexpected value received
+WARNING: Task completed
+WARNING: Unexpected value received
+ERROR: Task completed
+WARNING: Task completed
+DEBUG: User logged in
+INFO: Database connection failed
+DEBUG: Database connection failed
+DEBUG: User logged in
+INFO: Unexpected value received
+INFO: Task completed
+DEBUG: File not found
+WARNING: Task completed
+ERROR: User logged in
+INFO: Unexpected value received
+INFO: File not found
+DEBUG: File not found
+DEBUG: User logged in
+ERROR: User logged in
+DEBUG: User logged in
+WARNING: Unexpected value received
+INFO: Database connection failed
+DEBUG: File not found
+ERROR: Task completed
+INFO: Database connection failed
+INFO: Database connection failed
+DEBUG: Database connection failed
+WARNING: Task completed
+INFO: File not found
+WARNING: User logged in
+ERROR: User logged in
+INFO: User logged in
+INFO: Task completed
+DEBUG: Unexpected value received
+DEBUG: User logged in
+DEBUG: Task completed
+ERROR: File not found
+WARNING: User logged in
+INFO: User logged in
+DEBUG: Database connection failed
+ERROR: Unexpected value received
+ERROR: Unexpected value received
+DEBUG: Database connection failed
+ERROR: User logged in
+WARNING: Database connection failed
+INFO: File not found
+WARNING: Task completed
+ERROR: Unexpected value received
+INFO: Unexpected value received
+WARNING: Database connection failed
+DEBUG: Database connection failed
+DEBUG: Task completed
+WARNING: Database connection failed
+INFO: User logged in
+WARNING: Unexpected value received
+ERROR: Unexpected value received
+INFO: User logged in
+DEBUG: Unexpected value received
+INFO: Task completed
+ERROR: Database connection failed
+INFO: Task completed
+INFO: Unexpected value received
+DEBUG: Database connection failed
+INFO: File not found
+WARNING: Unexpected value received
+INFO: User logged in
+DEBUG: Database connection failed
+WARNING: Task completed
+INFO: Task completed
+INFO: Database connection failed
+WARNING: Task completed
+WARNING: File not found
+DEBUG: File not found
+WARNING: User logged in
+INFO: Task completed
+INFO: User logged in
+ERROR: Task completed
+ERROR: Task completed
+ERROR: User logged in
+WARNING: Unexpected value received
+ERROR: Unexpected value received
+INFO: File not found
+ERROR: Unexpected value received
+WARNING: User logged in
+WARNING: User logged in
+ERROR: Database connection failed
+ERROR: File not found
+INFO: Unexpected value received
+WARNING: Database connection failed
+WARNING: Task completed
+WARNING: Unexpected value received
+INFO: User logged in
+DEBUG: Unexpected value received
+DEBUG: User logged in
+ERROR: Unexpected value received
+INFO: Database connection failed
+ERROR: User logged in
+INFO: Unexpected value received
+INFO: Database connection failed
+WARNING: User logged in
+INFO: Database connection failed
+WARNING: File not found
+WARNING: File not found
+ERROR: Task completed
+DEBUG: Task completed
+INFO: File not found
+INFO: User logged in
+INFO: Database connection failed
+INFO: Unexpected value received
+WARNING: User logged in
+INFO: Unexpected value received
+INFO: Database connection failed
+WARNING: Task completed
+WARNING: Unexpected value received
+DEBUG: Database connection failed
+WARNING: File not found
+WARNING: Task completed
+ERROR: User logged in
+DEBUG: User logged in
+DEBUG: Unexpected value received
+WARNING: Task completed
+WARNING: Task completed
+WARNING: Database connection failed
+INFO: Database connection failed
+WARNING: Unexpected value received
+DEBUG: User logged in
+INFO: File not found
+DEBUG: Database connection failed
+DEBUG: File not found
+DEBUG: File not found
+WARNING: User logged in
+DEBUG: Unexpected value received
+INFO: File not found
+DEBUG: Database connection failed
+WARNING: User logged in
+WARNING: File not found
+DEBUG: Unexpected value received
+WARNING: Database connection failed
+WARNING: File not found
+DEBUG: File not found
+INFO: Database connection failed
+DEBUG: Database connection failed
+WARNING: File not found
+INFO: Unexpected value received
+INFO: Unexpected value received
+ERROR: File not found
+WARNING: Unexpected value received
+DEBUG: User logged in
+WARNING: Unexpected value received
+INFO: Database connection failed
+DEBUG: Task completed
+DEBUG: Database connection failed
+DEBUG: Database connection failed
+DEBUG: User logged in
+INFO: Task completed
+WARNING: Task completed
+WARNING: Database connection failed
+INFO: User logged in
+ERROR: File not found
+ERROR: Task completed
+ERROR: Unexpected value received
+WARNING: User logged in
+ERROR: Database connection failed
+INFO: File not found
+ERROR: Database connection failed
+ERROR: Task completed
+INFO: Unexpected value received
+INFO: Database connection failed
+DEBUG: Unexpected value received
+WARNING: Task completed
+ERROR: Unexpected value received
+WARNING: Task completed
+ERROR: Task completed
+INFO: File not found
+DEBUG: User logged in
+DEBUG: Unexpected value received
+WARNING: User logged in
+DEBUG: File not found
+ERROR: User logged in
+WARNING: User logged in
+INFO: File not found
+DEBUG: Task completed
+INFO: Database connection failed
+INFO: File not found
+WARNING: Database connection failed
+DEBUG: User logged in
+DEBUG: File not found
+DEBUG: User logged in
+ERROR: File not found
+DEBUG: File not found
+WARNING: User logged in
+DEBUG: Unexpected value received
+DEBUG: Unexpected value received
+ERROR: User logged in
+WARNING: Unexpected value received
+DEBUG: Task completed
+ERROR: Task completed
+DEBUG: Task completed
+ERROR: User logged in
+DEBUG: Task completed
+INFO: Task completed
+ERROR: User logged in
+WARNING: User logged in
+WARNING: File not found
+WARNING: Task completed
+DEBUG: Unexpected value received
+ERROR: User logged in
+WARNING: File not found
+INFO: User logged in
+ERROR: File not found
+DEBUG: Database connection failed
+DEBUG: Database connection failed
+WARNING: User logged in
+WARNING: Task completed
