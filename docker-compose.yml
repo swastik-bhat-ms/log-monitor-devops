@@ -19,17 +19,19 @@ services:
       - ./sample.log:/app/sample.log
     restart: always
 
-   jenkins:
-    image: jenkins/jenkins:lts
+  jenkins:
+    build:
+     context: .
+     dockerfile: Dockerfile.jenkins
     container_name: jenkins
     ports:
       - "8080:8080"
       - "50000:50000"
     volumes:
       - jenkins_home:/var/jenkins_home
-      - /var/run/docker.sock:/var/run/docker.sock
-    restart: always
-
+      - /var/run/docker.sock:/var/run/docker.sock  # gives access to Docker daemon
+    restart: unless-stopped
+    
 volumes:
   jenkins_home:
 
