@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clean Up Old Containers') {
             steps {
-                sh 'docker compose down || true'
+                sh 'docker-compose down || true'
             }
         }
 
