@@ -5,6 +5,7 @@ pipeline {
         stage('Clean Up Old Containers') {
             steps {
                 sh 'docker-compose down || true'
+                docker rm -f log-watcher log-writer jenkins || true
             }
         }
 
