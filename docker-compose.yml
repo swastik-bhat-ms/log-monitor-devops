@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: log-watcher
+    container_name: log_watcher
     volumes:
       - ./sample.log:/app/sample.log
     restart: always
@@ -14,7 +14,7 @@ services:
     build:
       context: .
       dockerfile: dockerfile.generator
-    container_name: log-writer
+    container_name: log_writer
     volumes:
       - ./sample.log:/app/sample.log
     restart: always
