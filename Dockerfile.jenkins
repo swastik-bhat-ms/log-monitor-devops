@@ -2,7 +2,16 @@ FROM jenkins/jenkins:lts
 
 USER root
 
-RUN apt-get update && apt-get install -y git
+# Install Docker CLI
+RUN apt-get update && apt-get install -y \
+    docker.io \
+    docker-compose \
+    git \
+    curl \
+    sudo
+
+# Let the jenkins user use docker without sudo
+RUN usermod -aG docker jenkins
     
 
 # Allow Jenkins to run Docker
