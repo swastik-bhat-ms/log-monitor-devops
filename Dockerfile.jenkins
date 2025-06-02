@@ -2,6 +2,10 @@ FROM jenkins/jenkins:lts
 
 USER root
 
+RUN apt-get update && \
+    apt-get install -y git docker.io docker-compose && \
+    apt-get clean
+
 # Install Docker CLI
 RUN apt-get update && \
     apt-get install -y apt-transport-https ca-certificates curl gnupg lsb-release && \
@@ -16,9 +20,6 @@ RUN curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-c
     chmod +x /usr/local/bin/docker-compose
     
     # Install Git, Docker, Docker Compose
-RUN apt-get update && \
-    apt-get install -y git docker.io docker-compose && \
-    apt-get clean
 
 # Allow Jenkins to run Docker
 RUN usermod -aG docker jenkins
