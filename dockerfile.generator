@@ -2,6 +2,6 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-COPY log-generator.py .
+COPY log_generator.py .
 
-CMD ["python", "log-generator.py"]
+CMD ["python", "log_generator.py"]
