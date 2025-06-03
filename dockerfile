@@ -5,8 +5,8 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # Copy your script into the container
-COPY log_monitor.py .
+COPY log-mon.py .
 
 # Run the script
-CMD ["python", "log_monitor.py"]
+CMD ["python", "log-mon.py"]
 
