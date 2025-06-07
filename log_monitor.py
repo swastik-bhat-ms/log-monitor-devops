@@ -12,6 +12,17 @@ LOG_FILE = "sample.log"  # Works for Ubuntu systems
 # Keywords to look for
 KEYWORDS = ["error", "failed", "critical"]
 
+# Inside log_monitor.py (add this below monitor_log())
+
+def process_log_lines(lines):
+    alerts = []
+    for line in lines:
+        for keyword in KEYWORDS:
+            if keyword.lower() in line.lower():
+                alerts.append(f"[ALERT] Keyword '{keyword}' found:\n{line.strip()}")
+    return alerts
+
+
 def monitor_log():
     """
     Continuously reads a log file and prints an alert if any of the KEYWORDS appear in new log lines.

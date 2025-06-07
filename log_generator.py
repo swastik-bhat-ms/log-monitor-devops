@@ -13,6 +13,11 @@ messages = [
 
 log_file = "sample.log"
 
+def write_log(level, msg, file_path="sample.log"):
+    with open(file_path, "a") as f:
+        f.write(f"{level}: {msg}\n")
+
+
 while True:
     level = random.choice(log_levels)
     msg = random.choice(messages)
