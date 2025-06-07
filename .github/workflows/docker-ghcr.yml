@@ -27,5 +27,5 @@ jobs:
         password: ${{ secrets.GH_TOKEN }}
     - name: Build and Push images with Compose
       run: |
-          docker-compose build
-          docker-compose push
+          docker compose build
+          docker compose push
