@@ -7,6 +7,8 @@ WORKDIR /app
 # Copy your script into the container
 COPY log_monitor.py .
 
+COPY sample.log /app/sample.log
+
 # Run the script
 CMD ["python", "log_monitor.py"]
 
