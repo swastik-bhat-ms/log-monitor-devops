@@ -2,7 +2,7 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-COPY sample.log .
+COPY sample.log /app/sample.log
 
 COPY log_generator.py .
 
