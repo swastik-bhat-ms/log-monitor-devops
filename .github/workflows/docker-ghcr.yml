@@ -3,14 +3,13 @@ name: Build and Push to GHCR
 on:
   push:
     branches: [ main ]  # or change to your branch
-    paths :
-      - '**/Dockerfile*'
-      - docker-compose.yml
-      - .github/workflows/docker-ghcr.yml
 
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
 
     steps:
     - name: Checkout code
@@ -25,7 +24,16 @@ jobs:
         registry: ghcr.io
         username: ${{ github.actor }}
         password: ${{ secrets.GH_TOKEN }}
-    - name: Build and Push images with Compose
+    #- name: Build and Push images with Compose
+     # run: |
+      #    docker compose build
+       #   docker compose push
+    - name: Build and Push log-monitor
       run: |
-          docker compose build
-          docker compose push
+        docker build -t ghcr.io/${{ github.actor }}/log-monitor:latest -f dockerfile .
+        docker push ghcr.io/${{ github.actor }}/log-monitor:latest
+
+    - name: Build and Push log-generator
+      run: |
+        docker build -t ghcr.io/${{ github.actor }}/log-generator:latest -f dockerfile.generator .
+        docker push ghcr.io/${{ github.actor }}/log-generator:latest
