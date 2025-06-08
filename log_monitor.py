@@ -5,7 +5,7 @@ import time
 # Path to the log file you want to monitor
 #sudo journalctl -f > ~/log-monitor-devops/sample.log
 # this that docker needs to acces it from the main is not possible so this is how we do it
-LOG_FILE = "sample.log"  # Works for Ubuntu systems
+LOG_FILE = "sample.log /app/sample.log"  # Works for Ubuntu systems
 #LOG_FILE = "/var/log/syslog"
 
 

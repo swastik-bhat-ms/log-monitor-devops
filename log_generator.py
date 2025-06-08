@@ -11,7 +11,7 @@ messages = [
     "Unexpected value received"
 ]
 
-log_file = "sample.log"
+log_file = "sample.log /app/sample.log"
 
 def write_log(level, msg, file_path="sample.log"):
     with open(file_path, "a") as f:
