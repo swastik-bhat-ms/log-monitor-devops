@@ -2,7 +2,7 @@ name: Build and Push to GHCR
 
 on:
   push:
-    branches: [ Test ]  # or change to your branch
+    branches: [ main ]  # or change to your branch
     paths :
       - '**/Dockerfile*'
       - docker-compose.yml
