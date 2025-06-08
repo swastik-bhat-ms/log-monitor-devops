@@ -15,7 +15,32 @@ spec:
       containers:
       - name: log-monitor-container
         image: ghcr.io/swastik-bhat-ms/log-monitor:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080  # Change according to your app
+      imagePullSecrets:
+      - name: ghcr-secret
+      
+      
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: log-generator-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: log-generator
+  template:
+    metadata:
+      labels:
+        app: log-generator
+    spec:
+      containers:
+      - name: log-generator-container
+        image: ghcr.io/swastik-bhat-ms/log-generator:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8081
       imagePullSecrets:
       - name: ghcr-secret
