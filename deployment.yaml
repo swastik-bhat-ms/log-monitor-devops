@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: log-monitor-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: log-monitor
+  template:
+    metadata:
+      labels:
+        app: log-monitor
+    spec:
+      containers:
+      - name: log-monitor-container
+        image: ghcr.io/swastik-bhat-ms/log-monitor:latest
+        ports:
+        - containerPort: 8080  # Change according to your app
+      imagePullSecrets:
+      - name: ghcr-secret
