@@ -7,7 +7,7 @@ services:
       dockerfile: dockerfile
     container_name: log-watcher
     volumes:
-      - ./sample.log
+      - ./sample.log:/app/sample.log
     restart: always
 
   log-generator:
@@ -16,7 +16,7 @@ services:
       dockerfile: dockerfile.generator
     container_name: log-writer
     volumes:
-      - ./sample.log
+      - ./sample.log:/app/sample.log
     restart: always
     
 volumes:
